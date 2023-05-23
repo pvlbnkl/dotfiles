@@ -1,0 +1,16 @@
+alacritty
+appcleaner
+aws-vpn-client
+brave-browser
+google-chrome
+karabiner-elements
+keepassxc
+lulu
+microsoft-remote-desktop
+mullvadvpn
+obs
+onyx
+rectangle
+sdm
+slack
+tunnelblick
