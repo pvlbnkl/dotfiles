@@ -1,6 +1,7 @@
 awscli
 bottom
 fzf
+gh
 gnupg
 go
 helm
