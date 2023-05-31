@@ -28,4 +28,5 @@ alias \
 	sdn="shutdown -h now" \
 	e="$EDITOR" \
 	v="$EDITOR" \
-	z="zathura"
+	z="zathura" \
+  ncmp="ncmpcpp"

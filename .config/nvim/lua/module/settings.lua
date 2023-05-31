@@ -3,6 +3,9 @@ vim.g.loaded_netrwPlugin = 1
 
 vim.cmd([[autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o]])
 
+vim.opt.ignorecase = true -- ignore case in search patterns
+vim.opt.smartcase = true -- smart case
+
 vim.opt.termguicolors = true
 vim.opt.nu = true
 vim.opt.relativenumber = true
@@ -25,4 +28,3 @@ vim.opt.guicursor = {
 	"r-cr:hor20",
 	"o:hor25",
 }
-

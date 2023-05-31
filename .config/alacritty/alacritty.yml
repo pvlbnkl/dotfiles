@@ -1,33 +1,41 @@
 env:
   TERM: alacritty
+
 scrolling:
   history: 10000
 
 font:
-  size: 14
+  size: 16
   normal:
-    family: IBM Plex Mono
+    family: BlexMono Nerd Font
+    style: Regular
   bold:
-    family: IBM Plex Mono
+    family: BlexMono Nerd Font
+    style: SemiBold
   italic:
-    family: IBM Plex Mono
+    family: BlexMono Nerd Font
+    style: Italic
   bold_italic:
-    family: IBM Plex Mono
+    family: BlexMono Nerd Font
+    style: SemiBold Italic
 
 key_bindings:
   - { key: Return, mods: Command|Shift, action: CreateNewWindow }
   - { key: C, mods: Command|Shift, action: Copy }
   - { key: V, mods: Command|Shift, action: Paste }
-window:  
+
+window:
   padding:
-    x: 5
-    y: 5
-  decorations: none
+    x: 8
+    y: 8
+  decorations: buttonless
 
 colors:
+
   primary:
     background: '0x002b36'
     foreground: '0x839496'
+
   normal:
     black:   '0x073642'
     red:     '0xdc322f'
@@ -37,6 +45,7 @@ colors:
     magenta: '0xd33682'
     cyan:    '0x2aa198'
     white:   '0xeee8d5'
+
   bright:
     black:   '0x002b36'
     red:     '0xcb4b16'
